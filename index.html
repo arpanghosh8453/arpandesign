@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+
+.rcorners3 {
+  border-radius: 4rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  background: url("https://static.vecteezy.com/packs/media/components/global/search-explore-nav/img/vectors/term-bg-1-666de2d941529c25aa511dc18d727160.jpg");
+  background-size: cover;
+  border: 0.5rem solid #fdfdfd;
+  background-position: center;
+  background-repeat: no-repeat;
+  height : 100%;
+  width: 100%; 
+}
+
+.rcorners3:hover {
+
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+border: 0.5rem solid #fbfded;
+transform: scale(1.03, 1.03);
+
+}
+
+.container {
+    position: relative;
+    display: inline-block; /* shrink wrap */
+    height: 90vh; /* arbitrary input height; adjust this */
+  }
+  .container > img {
+    height: 100%; /* make the img's width 100% of the height of .container */
+  }
+  .contents {
+    /* match size of .container, without influencing it */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+</style>
+</head>
+<body>
+<center>
+    <div class="container">
+        <!-- transparent image with 1:1 intrinsic aspect ratio -->
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+        <div class="contents">
+            <a href="https://www.arpandesign.com"><div class="rcorners3"></div></div></a>
+        </div>
+      </div>
+</center>
+</body>
+</html>
